@@ -1,0 +1,83 @@
+
+-http://localhost:8000/getClientList
+[
+    {
+        "id": 1,
+        "name": "Johnny",
+        "age": 43,
+        "comment": "yay, Im updated"
+    },
+    {
+        "id": 2,
+        "name": "Johnny",
+        "age": 44,
+        "comment": "wow, Im older"
+    },
+    {
+        "id": 4,
+        "name": "Jonas",
+        "age": 26,
+        "comment": "Comment"
+    },
+    {
+        "id": 5,
+        "name": "John",
+        "age": 25,
+        "comment": "Comment"
+    },
+    {
+        "id": 6,
+        "name": "Anon",
+        "age": 25,
+        "comment": "Word"
+    },
+    {
+        "id": 7,
+        "name": "Evgenij Onegin",
+        "age": 26,
+        "comment": "I want to understand you, I study your obscure language"
+    },
+    {
+        "id": 8,
+        "name": "Evgenij Onegin",
+        "age": 26,
+        "comment": "I want to understand you, I study your obscure language"
+    },
+    {
+        "id": 10,
+        "name": "George Orwell",
+        "age": 45,
+        "comment": "Visi gyvuliai yra lygus, bet kai kurie yra lygesni uz kitus"
+    }
+]
+	http://localhost:8000/getClient/8
+{
+    "id": 8,
+    "name": "Evgenij Onegin",
+    "age": 26,
+    "comment": "I want to understand you, I study your obscure language"
+}
+	http://localhost:8000/postClient
+    {
+        "name": "Price Phillip",
+        "age": 99,
+        "comment": "Game Over"
+    }
+
+	http://localhost:8000/deleteClient
+
+    {
+        "id": 10
+
+    }
+	http://localhost:8000/putClientUpdate 
+
+    {
+        "id": 1,
+        "name": "Johnny",
+        "age": 43,
+        "comment": "yay, Im updated"
+    }
+
+
+
